@@ -81,7 +81,7 @@ st.dataframe(comparison_df)
 
 # Membuat grafik perbandingan waktu eksekusi
 if st.session_state.time_iterative > 0 and st.session_state.time_recursive > 0:
-    n_values = range(400, jumlah_karyawan + 1, 400)
+    n_values = range(100, jumlah_karyawan + 1, 100)
     iterative_times = []
     recursive_times = []
 
